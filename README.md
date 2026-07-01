@@ -32,6 +32,8 @@ CDR + SMS record + routing decision + audit ledger
 No automated advice can provision a number, suppress a billing record, or
 release a call/SMS without governor approval and audit evidence.
 
+A live sample of the operator console is rendered in [docs/samples/operator-console.html](docs/samples/operator-console.html) — pure-data HTML output of the kotoba-lang capability UI.
+
 ## Capability layer
 
 This blueprint resolves its technology stack via
