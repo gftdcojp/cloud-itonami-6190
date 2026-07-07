@@ -1,11 +1,12 @@
-{:itonami.blueprint/id "cloud-itonami-6190"
+{:itonami.blueprint/id "cloud-itonami-isic-6190"
  :itonami.blueprint/name "Community Telecommunications Access"
  :itonami.blueprint/isic-rev5 "6190"
  :itonami.blueprint/domain :communication/telecom-access
  :itonami.blueprint/license "AGPL-3.0-or-later"
  :itonami.blueprint/social-impact [:connectivity :digital-inclusion :resilience]
  :itonami.blueprint/governor :telecom-access-governor
- :itonami.blueprint/required-technologies [:phone :identity :forms :dmn :bpmn :audit-ledger]
+ :itonami.blueprint/required-technologies [:robotics :phone :identity :forms :dmn :bpmn :audit-ledger]
  :itonami.blueprint/optional-technologies [:optimization]
  :itonami.blueprint/status :public-oss
- :itonami.blueprint/robotics true}
+ :itonami.blueprint/robotics true
+ :itonami.blueprint/maturity :implemented}

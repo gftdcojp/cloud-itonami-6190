@@ -2,7 +2,7 @@
 
 ## Classification
 
-- Repository: `cloud-itonami-6190`
+- Repository: `cloud-itonami-isic-6190`
 - ISIC Rev.5: `6190`
 - Activity: other telecommunications activities — VoIP, public access, reselling
 - Social impact: connectivity, digital inclusion, resilient local infrastructure
@@ -41,3 +41,10 @@
 - lawful-intercept and emergency paths remain outside LLM control
 - every provision, route, bill and disclose path is auditable
 - customer traffic and location data stays outside Git
+- a fabricated numbering-plan citation, incomplete evidence, a
+  malformed E.164 number, or an unresolved billing dispute -- each
+  forces a hold, not an override
+- billing-record suppression is logged and escalated, and cannot be
+  finalized twice for the same line: a double-suppression attempt is
+  held off this actor's own line facts alone, with no upstream
+  comparison needed
